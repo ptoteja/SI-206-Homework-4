@@ -90,6 +90,10 @@ for role in soup.find_all(class_ = "field-name-field-person-titles"):
 print(position_list)
 
 
+for i in range(len(title_list)):
+	umsi_titles[title_list[i]] = position_list[i]
+print(umsi_titles)
+
 ## It may be helpful to translate the following from English to code:
 
 
