@@ -85,9 +85,8 @@ for title in soup.find_all(class_ = "field-item even", property = "dc:title"):
 		title_list.append(title.h2.text)
 print(title_list)
 
-for role in soup.find_all(class_ = "field-item even"):
-
-	position_list.append(role.text)
+for role in soup.find_all(class_ = "field-name-field-person-titles"):
+		position_list.append(role.text)
 print(position_list)
 
 
