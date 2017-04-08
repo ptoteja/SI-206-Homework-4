@@ -64,7 +64,7 @@ import sqlite3
 #Find the frequencies of all the actors across all of the movie we iterate over. Save the dictionary in a variable called actor_frequency
 
  
-#Did you find anything interesting? Write up a quick summary and write it into a .txt file for your users!
+#Did you find anything interesting? Create a quick summary about your findings and write it into a .txt file for your users!
 
 
 
