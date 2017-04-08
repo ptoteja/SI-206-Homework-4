@@ -61,7 +61,7 @@ import sqlite3
 #Load your info into the database and create two queries, one utilizing JOIN INNER, on your new table
 
 
-#Find the frequencies of all the actors across all of the movie we iterate over. Save the dictionary in a variable called actor_frequency
+#Find the frequencies of all the actors across all of the movie we iterate over. Save the dictionary in a variable called actor_frequency.
 
  
 #Did you find anything interesting? Create a quick summary about your findings and write it into a .txt file for your users.
